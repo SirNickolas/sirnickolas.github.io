@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -euxo pipefail
+curl -sSL https://мойассистент.рф/getassistant | sudo bash
+exec /opt/assistant/bin/assistant
